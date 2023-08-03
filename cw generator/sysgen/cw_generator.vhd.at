@@ -1,0 +1,42 @@
+{
+  'Line_101' => {
+    'CodeInstance' => 'cw_generator_struct/cw',
+    'Instance' => 'cw',
+    'SimulinkInstance' => 'cw_generator/cw'
+  },
+  'Line_126' => {
+    'CodeInstance' => 'cw_generator_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_158' => {
+    'CodeInstance' => 'cw_generator_default_clock_driver',
+    'Instance' => 'cw_generator_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_166' => {
+    'CodeInstance' => 'cw_generator_struct',
+    'Instance' => 'cw_generator_struct',
+    'SimulinkInstance' => 'cw_generator'
+  },
+  'Line_31' => {
+    'CodeInstance' => 'cw_generator_struct/cw/constant_x0',
+    'Instance' => 'constant_x0',
+    'SimulinkInstance' => 'cw_generator/cw/Constant'
+  },
+  'Line_38' => {
+    'CodeInstance' => 'cw_generator_struct/cw/dds_compiler_6_0',
+    'Instance' => 'dds_compiler_6_0',
+    'SimulinkInstance' => 'cw_generator/cw/DDS Compiler 6.0 '
+  },
+  'Line_48' => {
+    'CodeInstance' => 'cw_generator_struct/cw/register1',
+    'Instance' => 'register1',
+    'SimulinkInstance' => 'cw_generator/cw/Register1'
+  },
+  'Line_61' => {
+    'CodeInstance' => 'cw_generator_struct/cw/register2',
+    'Instance' => 'register2',
+    'SimulinkInstance' => 'cw_generator/cw/Register2'
+  }
+}

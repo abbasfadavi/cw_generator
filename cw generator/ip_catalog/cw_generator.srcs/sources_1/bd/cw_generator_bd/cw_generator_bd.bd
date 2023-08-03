@@ -1,0 +1,116 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xDDC354438208EEB5",
+      "design_src": "SYSGEN",
+      "device": "xc7k160tfbg484-2",
+      "gen_directory": "../../../../cw_generator.gen/sources_1/bd/cw_generator_bd",
+      "name": "cw_generator_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "cw_generator_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "cw_generator_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "freq": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "ii": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 15} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "rr": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 15} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "cw_generator_1": {
+        "vlnv": "User_Company:SysGen:cw_generator:1.0",
+        "xci_name": "cw_generator_bd_cw_generator_1_0",
+        "xci_path": "ip\\cw_generator_bd_cw_generator_1_0\\cw_generator_bd_cw_generator_1_0.xci",
+        "inst_hier_path": "cw_generator_1"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "cw_generator_1/clk"
+        ]
+      },
+      "cw_generator_1_ii": {
+        "ports": [
+          "cw_generator_1/ii",
+          "ii"
+        ]
+      },
+      "cw_generator_1_rr": {
+        "ports": [
+          "cw_generator_1/rr",
+          "rr"
+        ]
+      },
+      "freq_1": {
+        "ports": [
+          "freq",
+          "cw_generator_1/freq"
+        ]
+      }
+    }
+  }
+}
